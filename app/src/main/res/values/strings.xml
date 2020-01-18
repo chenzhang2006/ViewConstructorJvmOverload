@@ -6,6 +6,7 @@
     <string name="three_constructors">Three constructors</string>
     <string name="jvmoverloads">\@JvmOverloads</string>
     <string name="defstyleattr_set">defStyleAttr set</string>
+    <string name="jvmoverloads_2">\@JvmOverloads 2 parameters</string>
 
     <!-- Main Activity -->
     <string name="buttons">Buttons</string>
