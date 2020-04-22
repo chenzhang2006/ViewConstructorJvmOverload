@@ -1,11 +1,11 @@
-package com.mmlodawski.jvmoverloadsmediumexample.widget.button
+package com.chenzhang.jvmoverloads.widget.button
 
 import android.content.Context
 import android.util.AttributeSet
 import android.widget.Button
 
-class ButtonJvm @JvmOverloads constructor(
+class ButtonJvmStyled @JvmOverloads constructor(
         context: Context,
         attrs: AttributeSet? = null,
-        defStyleAttr: Int = 0
+        defStyleAttr: Int = android.support.design.R.attr.buttonStyle
 ) : Button(context, attrs, defStyleAttr)

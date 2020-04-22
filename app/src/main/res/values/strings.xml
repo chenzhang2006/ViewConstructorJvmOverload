@@ -1,7 +1,7 @@
 <resources>
 
     <!-- General -->
-    <string name="app_name">JvmOverloadsMediumExample</string>
+    <string name="app_name">JvmOverloads</string>
 
     <string name="three_constructors">Three constructors</string>
     <string name="jvmoverloads">\@JvmOverloads with 3 parameters (Failed)</string>

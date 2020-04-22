@@ -1,20 +1,20 @@
-package com.mmlodawski.jvmoverloadsmediumexample.activity
+package com.chenzhang.jvmoverloads.activity
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.view.MenuItem
-import com.mmlodawski.jvmoverloadsmediumexample.R
+import com.chenzhang.jvmoverloads.R
 
-class ButtonsActivity : AppCompatActivity() {
+class TextInputEditTextsActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_buttons)
+        setContentView(R.layout.activity_text_input_edit_texts)
         setUpToolbar()
     }
 
     private fun setUpToolbar() {
-        supportActionBar?.title = getString(R.string.buttons_title)
+        supportActionBar?.title = getString(R.string.text_input_edit_texts_title)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
     }
 

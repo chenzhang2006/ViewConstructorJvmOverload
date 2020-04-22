@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity.MainActivity">
+    tools:context="com.chenzhang.jvmoverloads.activity.MainActivity">
 
     <android.support.constraint.Guideline
         android:id="@+id/right_guideline"
@@ -34,7 +34,7 @@
         android:orientation="horizontal"
         app:layout_constraintGuide_end="@dimen/default_activity_horizontal_margin" />
 
-    <com.mmlodawski.jvmoverloadsmediumexample.widget.checkbox.CheckBoxConstructors
+    <com.chenzhang.jvmoverloads.widget.checkbox.CheckBoxConstructors
         android:id="@+id/checkbox_default_overload"
         android:layout_width="@dimen/match_constraint"
         android:layout_height="wrap_content"
@@ -45,7 +45,7 @@
         app:layout_constraintTop_toTopOf="@id/top_guideline"
         app:layout_constraintVertical_chainStyle="packed" />
 
-    <com.mmlodawski.jvmoverloadsmediumexample.widget.checkbox.CheckBoxJvm
+    <com.chenzhang.jvmoverloads.widget.checkbox.CheckBoxJvm
         android:id="@+id/checkbox_jvmoverloads_3params"
         android:layout_width="@dimen/match_constraint"
         android:layout_height="wrap_content"
@@ -56,7 +56,7 @@
         app:layout_constraintRight_toRightOf="@id/right_guideline"
         app:layout_constraintTop_toBottomOf="@id/checkbox_default_overload" />
 
-    <com.mmlodawski.jvmoverloadsmediumexample.widget.checkbox.CheckBoxJvmStyled
+    <com.chenzhang.jvmoverloads.widget.checkbox.CheckBoxJvmStyled
         android:id="@+id/checkbox_jvmoverloads_correct_defStyle"
         android:layout_width="@dimen/match_constraint"
         android:layout_height="wrap_content"
@@ -67,7 +67,7 @@
         app:layout_constraintRight_toRightOf="@id/right_guideline"
         app:layout_constraintTop_toBottomOf="@id/checkbox_jvmoverloads_3params" />
 
-    <com.mmlodawski.jvmoverloadsmediumexample.widget.checkbox.CheckBoxJvmOverloads2
+    <com.chenzhang.jvmoverloads.widget.checkbox.CheckBoxJvmOverloads2
         android:id="@+id/checkbox_jvmoverloads_2params"
         android:layout_width="@dimen/match_constraint"
         android:layout_height="wrap_content"

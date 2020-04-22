@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity.MainActivity">
+    tools:context="com.chenzhang.jvmoverloads.activity.MainActivity">
 
     <android.support.constraint.Guideline
         android:id="@+id/right_guideline"
@@ -44,7 +44,7 @@
         app:layout_constraintTop_toTopOf="@id/top_guideline"
         app:layout_constraintVertical_chainStyle="packed">
 
-        <com.mmlodawski.jvmoverloadsmediumexample.widget.textinputedittext.TextInputEditTextConstructors
+        <com.chenzhang.jvmoverloads.widget.textinputedittext.TextInputEditTextConstructors
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/three_constructors" />
@@ -61,7 +61,7 @@
         app:layout_constraintRight_toRightOf="@id/right_guideline"
         app:layout_constraintTop_toBottomOf="@id/textinput_default_constructors">
 
-        <com.mmlodawski.jvmoverloadsmediumexample.widget.textinputedittext.TextInputEditTextJvm
+        <com.chenzhang.jvmoverloads.widget.textinputedittext.TextInputEditTextJvm
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/jvmoverloads" />
@@ -78,7 +78,7 @@
         app:layout_constraintRight_toRightOf="@id/right_guideline"
         app:layout_constraintTop_toBottomOf="@id/textInput_jvmoverloads_3params">
 
-        <com.mmlodawski.jvmoverloadsmediumexample.widget.textinputedittext.TextInputEditTextJvmStyled
+        <com.chenzhang.jvmoverloads.widget.textinputedittext.TextInputEditTextJvmStyled
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/defstyleattr_set" />
@@ -95,10 +95,10 @@
         app:layout_constraintRight_toRightOf="@id/right_guideline"
         app:layout_constraintTop_toBottomOf="@id/textInput_jvmoverloads_correct_defStyle">
 
-        <com.mmlodawski.jvmoverloadsmediumexample.widget.textinputedittext.TextInputEditTextJvmOverloads2
+        <com.chenzhang.jvmoverloads.widget.textinputedittext.TextInputEditTextJvmOverloads2
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/jvmoverloads" />
+            android:hint="@string/jvmoverloads_2" />
 
     </android.support.design.widget.TextInputLayout>
 

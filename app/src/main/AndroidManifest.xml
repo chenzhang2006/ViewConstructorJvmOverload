@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.mmlodawski.jvmoverloadsmediumexample">
+          package="com.chenzhang.jvmoverloads">
 
     <application
         android:allowBackup="false"
@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.mmlodawski.jvmoverloadsmediumexample.activity.MainActivity">
+        <activity android:name="com.chenzhang.jvmoverloads.activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -17,11 +17,11 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".activity.ButtonsActivity"/>
+        <activity android:name="com.chenzhang.jvmoverloads.activity.ButtonsActivity"/>
 
-        <activity android:name=".activity.TextInputEditTextsActivity"/>
+        <activity android:name="com.chenzhang.jvmoverloads.activity.TextInputEditTextsActivity"/>
 
-        <activity android:name=".activity.CheckBoxesActivity"/>
+        <activity android:name="com.chenzhang.jvmoverloads.activity.CheckBoxesActivity"/>
     </application>
 
 </manifest>

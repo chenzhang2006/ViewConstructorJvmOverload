@@ -1,9 +1,9 @@
-package com.mmlodawski.jvmoverloadsmediumexample.activity
+package com.chenzhang.jvmoverloads.activity
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.view.MenuItem
-import com.mmlodawski.jvmoverloadsmediumexample.R
+import com.chenzhang.jvmoverloads.R
 
 class CheckBoxesActivity : AppCompatActivity() {
 

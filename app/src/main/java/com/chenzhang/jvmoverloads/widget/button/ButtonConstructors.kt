@@ -1,10 +1,10 @@
-package com.mmlodawski.jvmoverloadsmediumexample.widget.checkbox
+package com.chenzhang.jvmoverloads.widget.button
 
 import android.content.Context
 import android.util.AttributeSet
-import android.widget.CheckBox
+import android.widget.Button
 
-class CheckBoxConstructors : CheckBox {
+class ButtonConstructors : Button {
 
     constructor(context: Context) : super(context)
 

@@ -1,9 +1,9 @@
-package com.mmlodawski.jvmoverloadsmediumexample.activity
+package com.chenzhang.jvmoverloads.activity
 
 import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
-import com.mmlodawski.jvmoverloadsmediumexample.R
+import com.chenzhang.jvmoverloads.R
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -15,8 +15,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setUpListeners() {
+        textInputEditTexts.setOnClickListener { startActivity(Intent(this@MainActivity, TextInputEditTextsActivity::class.java)) }
         buttons.setOnClickListener { startActivity(Intent(this@MainActivity, ButtonsActivity::class.java)) }
-        textInputEditTexts.setOnClickListener { startActivity(Intent(this@MainActivity, ButtonsActivity::class.java)) }
-        checkBoxes.setOnClickListener { startActivity(Intent(this@MainActivity, ButtonsActivity::class.java)) }
+        checkBoxes.setOnClickListener { startActivity(Intent(this@MainActivity, CheckBoxesActivity::class.java)) }
     }
 }
