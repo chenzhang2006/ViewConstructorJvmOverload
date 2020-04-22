@@ -43,7 +43,7 @@
         app:layout_constraintBottom_toTopOf="@+id/buttons"
         app:layout_constraintLeft_toLeftOf="@id/left_guideline"
         app:layout_constraintRight_toRightOf="@id/right_guideline"
-        app:layout_constraintTop_toTopOf="@id/top_guideline"/>
+        app:layout_constraintTop_toTopOf="@id/top_guideline" />
 
     <Button
         android:id="@+id/buttons"
@@ -61,7 +61,7 @@
         android:id="@+id/checkBoxes"
         android:layout_width="@dimen/match_constraint"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/default_widget_vertical_margin"
+        android:layout_marginBottom="@dimen/default_widget_vertical_margin"
         android:text="@string/check_boxes"
         app:layout_constraintBottom_toBottomOf="@id/bottom_guideline"
         app:layout_constraintLeft_toLeftOf="@id/left_guideline"
