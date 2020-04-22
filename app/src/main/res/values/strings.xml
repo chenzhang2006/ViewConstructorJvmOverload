@@ -4,9 +4,9 @@
     <string name="app_name">JvmOverloadsMediumExample</string>
 
     <string name="three_constructors">Three constructors</string>
-    <string name="jvmoverloads">\@JvmOverloads</string>
-    <string name="defstyleattr_set">defStyleAttr set</string>
-    <string name="jvmoverloads_2">\@JvmOverloads 2 parameters</string>
+    <string name="jvmoverloads">\@JvmOverloads with 3 parameters (Failed)</string>
+    <string name="defstyleattr_set">\@JvmOverloads with correct defStyleAttr</string>
+    <string name="jvmoverloads_2">\@JvmOverloads with just 2 parameters</string>
 
     <!-- Main Activity -->
     <string name="buttons">Buttons</string>

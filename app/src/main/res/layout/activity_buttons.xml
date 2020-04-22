@@ -35,40 +35,40 @@
         app:layout_constraintGuide_end="@dimen/default_activity_horizontal_margin" />
 
     <com.mmlodawski.jvmoverloadsmediumexample.widget.button.ButtonConstructors
-        android:id="@+id/buttons"
+        android:id="@+id/button_default_overload"
         android:layout_width="@dimen/match_constraint"
         android:layout_height="wrap_content"
         android:text="@string/three_constructors"
-        app:layout_constraintBottom_toTopOf="@+id/textInputEditTexts"
+        app:layout_constraintBottom_toTopOf="@+id/button_jvmoverloads_3params"
         app:layout_constraintLeft_toLeftOf="@id/left_guideline"
         app:layout_constraintRight_toRightOf="@id/right_guideline"
         app:layout_constraintTop_toTopOf="@id/top_guideline"
         app:layout_constraintVertical_chainStyle="packed" />
 
     <com.mmlodawski.jvmoverloadsmediumexample.widget.button.ButtonJvm
-        android:id="@+id/textInputEditTexts"
+        android:id="@+id/button_jvmoverloads_3params"
         android:layout_width="@dimen/match_constraint"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/default_widget_vertical_margin"
         android:text="@string/jvmoverloads"
-        app:layout_constraintBottom_toTopOf="@+id/checkBoxes"
+        app:layout_constraintBottom_toTopOf="@+id/button_jvmoverloads_correct_defStyle"
         app:layout_constraintLeft_toLeftOf="@id/left_guideline"
         app:layout_constraintRight_toRightOf="@id/right_guideline"
-        app:layout_constraintTop_toBottomOf="@id/buttons" />
+        app:layout_constraintTop_toBottomOf="@id/button_default_overload" />
 
     <com.mmlodawski.jvmoverloadsmediumexample.widget.button.ButtonJvmStyled
-        android:id="@+id/checkBoxes"
+        android:id="@+id/button_jvmoverloads_correct_defStyle"
         android:layout_width="@dimen/match_constraint"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/default_widget_vertical_margin"
         android:text="@string/defstyleattr_set"
-        app:layout_constraintBottom_toTopOf="@id/button2"
+        app:layout_constraintBottom_toTopOf="@id/button_jvmoverloads_2params"
         app:layout_constraintLeft_toLeftOf="@id/left_guideline"
         app:layout_constraintRight_toRightOf="@id/right_guideline"
-        app:layout_constraintTop_toBottomOf="@id/textInputEditTexts" />
+        app:layout_constraintTop_toBottomOf="@id/button_jvmoverloads_3params" />
 
     <com.mmlodawski.jvmoverloadsmediumexample.widget.button.ButtonJvmOverloads2
-        android:id="@+id/button2"
+        android:id="@+id/button_jvmoverloads_2params"
         android:layout_width="@dimen/match_constraint"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/default_widget_vertical_margin"
@@ -76,6 +76,6 @@
         app:layout_constraintBottom_toBottomOf="@id/bottom_guideline"
         app:layout_constraintLeft_toLeftOf="@id/left_guideline"
         app:layout_constraintRight_toRightOf="@id/right_guideline"
-        app:layout_constraintTop_toBottomOf="@id/checkBoxes" />
+        app:layout_constraintTop_toBottomOf="@id/button_jvmoverloads_correct_defStyle" />
 
 </android.support.constraint.ConstraintLayout>
