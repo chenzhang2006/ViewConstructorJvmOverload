@@ -5,5 +5,7 @@ import android.support.design.widget.TextInputEditText
 import android.util.AttributeSet
 
 class TextInputEditTextJvm @JvmOverloads constructor(
-        context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0
+        context: Context,
+        attrs: AttributeSet? = null,
+        defStyleAttr: Int = 0
 ) : TextInputEditText(context, attrs, defStyleAttr)
