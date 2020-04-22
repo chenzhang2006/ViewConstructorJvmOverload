@@ -56,7 +56,6 @@
         app:layout_constraintBottom_toTopOf= "@id/checkBoxes"
         app:layout_constraintVertical_chainStyle="packed" />
 
-
     <Button
         android:id="@+id/checkBoxes"
         android:layout_width="@dimen/match_constraint"
