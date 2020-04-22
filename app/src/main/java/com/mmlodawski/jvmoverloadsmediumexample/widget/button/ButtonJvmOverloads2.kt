@@ -5,5 +5,6 @@ import android.util.AttributeSet
 import android.widget.Button
 
 class ButtonJvmOverloads2 @JvmOverloads constructor(
-        context: Context, attrs: AttributeSet? = null
+        context: Context,
+        attrs: AttributeSet? = null
 ) : Button(context, attrs)
